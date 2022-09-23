@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* ??? */
+@media (max-width: 985px) {
+    .info .info-text {
+        display: block;
+        width: 25%;
+    }
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: linear-gradient(to bottom left, #cc99ff 19%, #0099cc 100%);
+    color: white ;
+}
+
+.color2 {
+    color: #ddbefa;
+}
+
+a {
+    color: #6d3c9e;
+    text-decoration: none;}
+
+a:hover {
+    text-decoration: underline;}
+
+a:active {
+    color: #cc99ff;}
+
+/* a:visited { */
+    /* color: #cc99ff; */
+/* } */
+
+
+.container {
+    max-width: 1050px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.info {
+    background: rgba(26, 171, 174, 0.39);
+    border-radius: 15%;
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.card {
+    
+    /* padding-left: 33px; */
+    /* padding-bottom: 20px; */
+    padding: 25px 30px ;
+    background: rgba(26, 171, 174, 0.39);
+    border-radius: 6%;
+    margin-bottom: 10px;
+    /* border: 1px dashed rgb(14, 89, 90)  */
+    border: 1px rgb(14, 89, 90) 
+}
+
+.bg-wight {
+    background: rgb(202, 237, 238);
+    padding: 10px;
+    border-radius: 20%;
+    max-width: 150px;
+}
+
+.btn {
+    background: #73a0da ;
+    padding: 12px 17px; 
+    border: none;
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    margin-bottom: 6px;
+}
+
+.table {
+    width: 100%;
+    padding: 3px;
+    margin-left: 3px;
+}
+
+.table td:hover {
+    background: #6d3c9e;
+}
+
+/* .link-list { */
+    /* list-style: none; */
+    /* padding: ; */
+/* } */
+
+/* .link-list li { */
+    /* margin-bottom: 10px; */
+/* } */
+
+.form h3 {
+    text-align: center;
+}
+
+/* .form-row { */
+    /* margin-bottom: 10px; */
+/* } */
+
+/* .form-row .form-group { */
+    /* display: inline-block; */
+    /* margin-right: 20px; */
+    /* width: 47%; */
+/* } */
+
+/* тоже самое, но короче: */
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+/* ??? */
+@media (max-width: 985px){
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #6d3c9e;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    /* background: #ddbefa; */
+    background: transparent;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ddbefa;
+    color: #ddbefa;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
